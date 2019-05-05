@@ -3,6 +3,9 @@ export default {
   mounted: () => {
     console.log(`${this.name} mounted`)
   },
+  styles: {
+    borderBottom: 1,
+  },
   destroyed: () => {},
   render: () => {
     return `
