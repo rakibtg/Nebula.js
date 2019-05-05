@@ -11,7 +11,7 @@ export default {
         <li @map="state.users" @item="user" @key="index"/>
       </ul>
       <div @if="state.isAdmin === true">
-        <button>Edit></button>
+        <button @click="handleEdit">Edit></button>
       </div>
     `
   }
